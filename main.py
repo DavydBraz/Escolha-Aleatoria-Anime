@@ -104,12 +104,12 @@ def procurar(animes):
 
 #Exibe o menu na tela, para saber quais sao as opcoes disponiveis
 def menu():
-  print("\n-------------------------------------------------------")
+  print("\n---------------------------Menu--------------------------")
   print("\n Escolha uma das opcoes abaixo:\n")
   print("1-Listar todos animes\n")
-  print("2-Adicionar\n")
-  print("3-Remover\n")
-  print("4-Procurar\n")
+  print("2-Adicionar anime\n")
+  print("3-Remover anime\n")
+  print("4-Procurar anime\n")
   print("5-Sugerir aleatoriamente\n")
   print("6-Finalizar programa\n")
   print("-------------------------------------------------------\n")
