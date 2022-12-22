@@ -140,7 +140,7 @@ while True:
           lista.append(i)
         try:
           print("\n")
-          print(random.choice(lista))
+          print(random.choice(lista), "!!!")
         except:
           print("\nOcorreu um erro, provavelmente a lista esta vazia")
       elif opcao == "t" or opcao=="Tamanho":
@@ -164,7 +164,7 @@ while True:
           print("\nEscolha fora das opcoes possiveis!")
         try:
           print("\n")
-          print(random.choice(lista))
+          print(random.choice(lista), "!!!")
         except:
           print(
             "\nOcorreu um erro, provavelmente a lista esta vazia, ou nao esta de acordo com os tamanhos existentes"
@@ -179,7 +179,7 @@ while True:
               lista.append(j)
         try:
           print("\n")
-          print(random.choice(lista))
+          print(random.choice(lista), "!!!")
         except:
           print(
             "\nOcorreu um erro, provavelmente a lista esta vazia, ou o genero digitado incorretamente ou inexistente na lista"
