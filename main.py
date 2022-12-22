@@ -132,7 +132,7 @@ while True:
       procurar(animes)
     elif escolha == 5:
       opcao = input(
-        "\nDeseja que seja aleatoriamente pelo genero, tamanho ou totalmente aleatorio -> genero=g, tamanho=t, aleatorio=a: "
+        "\nAleatoriamente de que forma:\n\n\tGenero=g\n\n\tTamanho=t\n\n\tAleatorio=a: "
       )
       if opcao == "a":
         lista = []
