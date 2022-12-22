@@ -132,9 +132,9 @@ while True:
       procurar(animes)
     elif escolha == 5:
       opcao = input(
-        "\nAleatoriamente de que forma:\n\n\tGenero=g\n\n\tTamanho=t\n\n\tAleatorio=a: "
+        "\nAleatoriamente de que forma:\n\n\tg-Genero\n\n\tt-Tamanho\n\n\ta-Aleatorio\n: "
       )
-      if opcao == "a":
+      if opcao == "a" or opcao=="Aleatorio":
         lista = []
         for i in animes:
           lista.append(i)
@@ -143,7 +143,7 @@ while True:
           print(random.choice(lista))
         except:
           print("\nOcorreu um erro, provavelmente a lista esta vazia")
-      elif opcao == "t":
+      elif opcao == "t" or opcao=="Tamanho":
         escolha = input("\nQual o tamanho desejado[pequeno, medio, grande]: ")
         lista = []
         if escolha == "pequeno":
@@ -170,7 +170,7 @@ while True:
             "\nOcorreu um erro, provavelmente a lista esta vazia, ou nao esta de acordo com os tamanhos existentes"
           )
 
-      elif opcao == "g":
+      elif opcao == "g" or opcao=="Genero":
         lista = []
         escolha = input("Qual o genero que deseja: ")
         for j in animes:
